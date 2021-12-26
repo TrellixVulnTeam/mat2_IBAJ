@@ -534,7 +534,7 @@ class TestCleaning(unittest.TestCase):
             meta = p2.get_meta()
             if meta:
                 for k, v in p2.get_meta().items():
-                    self.assertIn(k, case['expected_meta'])
+                    self.assertIn(k, case['expected_meta'], '%s is not in %s for file %s' % (k, case['expected_meta'], case['name']))
                     self.assertIn(str(case['expected_meta'][k]), str(v))
             self.assertTrue(p2.remove_all())
 
