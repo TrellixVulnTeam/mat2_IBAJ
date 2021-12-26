@@ -531,9 +531,11 @@ class TestCleaning(unittest.TestCase):
             self.assertTrue(p1.remove_all())
 
             p2 = case['parser'](p1.output_filename)
-            for k, v in p2.get_meta().items():
-                self.assertIn(k, case['expected_meta'])
-                self.assertIn(str(case['expected_meta'][k]), str(v))
+            meta = p2.get_meta()
+            if meta:
+                for k, v in p2.get_meta().items():
+                    self.assertIn(k, case['expected_meta'])
+                    self.assertIn(str(case['expected_meta'][k]), str(v))
             self.assertTrue(p2.remove_all())
 
             os.remove(target)
