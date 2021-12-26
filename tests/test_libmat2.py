@@ -429,7 +429,7 @@ class TestCleaning(unittest.TestCase):
             'name': 'gif',
             'parser': images.GIFParser,
             'meta': {'Comment': 'this is a test comment'},
-            'expected_meta': {'TransparentColor': 'lol'},
+            'expected_meta': {'TransparentColor': '5'},
         },{
             'name': 'css',
             'parser': web.CSSParser,
