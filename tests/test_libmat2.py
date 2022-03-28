@@ -447,7 +447,7 @@ class TestCleaning(unittest.TestCase):
             },
             'expected_meta': {
                 'ImageSize': '128x128',
-                'Megapixels': '128x128',
+                'Megapixels': '0.016',
             },
         } ,{
             'name': 'ppm',
