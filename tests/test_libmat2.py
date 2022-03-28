@@ -444,9 +444,11 @@ class TestCleaning(unittest.TestCase):
             'parser': images.SVGParser,
             'meta': {
                 'WorkDescription': "This is a test svg image for mat2's testsuite",
-                'ImageSize': 'lol',
             },
-            'expected_meta': {},
+            'expected_meta': {
+                'ImageSize': '128x128',
+                'Megapixels': '128x128',
+            },
         } ,{
             'name': 'ppm',
             'parser': images.PPMParser,
