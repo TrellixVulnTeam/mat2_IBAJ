@@ -504,7 +504,7 @@ class TestCleaning(unittest.TestCase):
                 'TrackHeaderVersion': 0,
                 'TrackID': 1,
                 'TrackLayer': 0,
-                'TransferCharacteristics': 'LOL',
+                'TransferCharacteristics': 'BT.709',
             },
         },{
             'name': 'wmv',
