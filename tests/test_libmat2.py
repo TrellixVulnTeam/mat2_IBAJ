@@ -482,7 +482,7 @@ class TestCleaning(unittest.TestCase):
                 'BufferSize': 0,
                 'CompatibleBrands': ['isom', 'iso2', 'avc1', 'mp41'],
                 'ColorProfiles': 'nclx',
-                'ColorPrimaries': 'LOL',
+                'ColorPrimaries': 'BT.709',
                 'ColorRepresentation': 'nclx 1 1 1',
                 'CompressorID': 'avc1',
                 'GraphicsMode': 'srcCopy',
