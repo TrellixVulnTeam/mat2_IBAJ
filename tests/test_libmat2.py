@@ -503,7 +503,9 @@ class TestCleaning(unittest.TestCase):
                 'TimeScale': 1000,
                 'TrackHeaderVersion': 0,
                 'TrackID': 1,
-                'TrackLayer': 0},
+                'TrackLayer': 0,
+                'TransferCharacteristics': 'LOL',
+            },
         },{
             'name': 'wmv',
             'ffmpeg': 1,
