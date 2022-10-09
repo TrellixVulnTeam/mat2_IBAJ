@@ -490,7 +490,7 @@ class TestCleaning(unittest.TestCase):
                 'HandlerType': 'Metadata',
                 'HandlerVendorID': 'Apple',
                 'MajorBrand': 'Base Media v1 [IS0 14496-12:2003]',
-                'MatrixCoefficients': 'LOL',
+                'MatrixCoefficients': 'BT.709',
                 'MaxBitrate': 465641,
                 'MediaDataOffset': 48,
                 'MediaDataSize': 379872,
