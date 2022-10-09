@@ -481,6 +481,7 @@ class TestCleaning(unittest.TestCase):
                 'AverageBitrate': 465641,
                 'BufferSize': 0,
                 'CompatibleBrands': ['isom', 'iso2', 'avc1', 'mp41'],
+                'ColorProfiles': 'LOL',
                 'ColorRepresentation': 'nclx 1 1 1',
                 'CompressorID': 'avc1',
                 'GraphicsMode': 'srcCopy',
