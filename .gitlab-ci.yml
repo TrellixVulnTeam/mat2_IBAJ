@@ -85,5 +85,5 @@ tests:gentoo:
   stage: test
   <<: *prepare_env
   script:
-    - emerge --depclean sys-apps/bubblewrap 
+    - rm `which bwrap`
     - su - mat2 -c "python3 -m unittest discover -v"
